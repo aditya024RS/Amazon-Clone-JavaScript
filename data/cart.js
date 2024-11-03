@@ -45,7 +45,7 @@ export function addToCart(productId, quantity) {
       saveToStorage();
   }
 
-  export function removeFromCart(productId) {
+export function removeFromCart(productId) {
     const newCart = [];
 
     cart.forEach((cartItem) => {
@@ -56,4 +56,16 @@ export function addToCart(productId, quantity) {
 
     cart = newCart;
     saveToStorage();
-  }
+}
+
+export function updateQuantity(productId, newQuantity) {
+  let matchingItem;
+  cart.forEach((cartItem) => {
+    if(cartItem.productId === productId) {
+      matchingItem = cartItem;
+    }
+  });
+  matchingItem.quantity = newQuantity;
+
+  saveToStorage();
+}
