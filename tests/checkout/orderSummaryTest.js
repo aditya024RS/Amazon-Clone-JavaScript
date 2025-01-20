@@ -56,4 +56,8 @@ describe('test suite: renderOrderSummary',() => {
     expect(cart.length).toEqual(1);
     expect(cart[0].productId).toEqual(productId2);
   });
+
+  it('updates the delivery option', () => {
+    
+  });
 });
