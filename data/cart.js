@@ -1,3 +1,4 @@
+//import { validDeliveryOption } from "./deliveryOptions";
 
 export let cart;
 
@@ -93,7 +94,9 @@ export function updateDeliveryOption(productId, deliveryOptionId) {
     return;
   }
 
-  
+  /*if(!validDeliveryOption(deliveryOptionId)) {
+    return;
+  }*/
 
   matchingItem.deliveryOptionId = deliveryOptionId;
 
