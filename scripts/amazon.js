@@ -6,7 +6,7 @@ loadProducts(renderProductsGrid);
 
 changeCartHTML();
 
-function changeCartHTML() {
+export function changeCartHTML() {
   document.querySelector('.js-cart-quantity').innerHTML = updateCartQuantity();
 }
 
