@@ -88,6 +88,8 @@ async function loadPage() {
     button.addEventListener('click', () => {
       addToCart(button.dataset.productId, Number(button.dataset.productQuantity));
 
+      changeCartHTML();
+      
       button.innerHTML = 'Added';
       setTimeout(() => {
         button.innerHTML = `
