@@ -37,8 +37,7 @@ To run this project locally:
 
 ```bash
 1. Clone the repo
-   git clone https://github.com/yourusername/amazon-clone-js.git
-
+   git clone https://github.com/aditya024RS/Amazon-Clone-JavaScript.git
 2. Navigate to the project directory
    cd amazon-clone-js
 
