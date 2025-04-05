@@ -1,0 +1,20 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs/editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Environment files (in case you add one later)
+.env
